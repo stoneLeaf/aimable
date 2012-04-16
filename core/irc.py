@@ -156,10 +156,9 @@ class IRC(object):
         thread.start_new_thread(self.conn.run, ())
         self.set_pass(self.conf.get('server_password'))
         self.set_nick(self.nick)
-        self.cmd("USER",
-                 [conf.get('user', 'skybot'), "3", "*",
-                  conf.get('realname',
-                           'Python bot - http://github.com/rmmh/skybot')])
+        self.cmd("USER", [conf.get('user', 'aimable'), "3", "*", conf.get(
+                          'realname',
+                          'Python bot - http://github.com/stoneLeaf/aimable')])
 
     def parse_loop(self):
         while True:

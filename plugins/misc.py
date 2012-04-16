@@ -44,11 +44,12 @@ def onjoin(paraml, conn=None, bot=None):
     # Set HTTP User-Agent
     # TODO: The http library should retrieve the user-agent and not the other
     # way around.
-    http.ua_skybot = ('Skybot/r%d %s (http://github.com/rmmh/skybot)' %
+    http.ua_aimable = ('Aimable/r%d %s (http://github.com/stoneLeaf/aimable)' %
                       (bot.version["REV_NUMBER"], bot.version["SHORT_HASH"]))
 
 
 @hook.regex(r'^\x01VERSION\x01$')
 def version(inp, notice=None, bot=None):
-    notice('\x01VERSION Skybot (r%d %s) - http://github.com/rmmh/skybot/\x01' %
+    notice(('\x01VERSION Aimable(r%d %s) - '
+            'http://github.com/stoneLeaf/aimable\x01') %
            (bot.version["REV_NUMBER"], bot.version["SHORT_HASH"]))

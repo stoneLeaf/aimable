@@ -30,7 +30,7 @@ try:
 except OSError:
     print "### INFO: git could not be used to retrieve version"
 
-print 'Skybot (r%d %s) - http://github.com/rmmh/skybot' % (
+print 'Aimable (r%d %s) <http://github.com/stoneLeaf/aimable>' % (
                         bot.version["REV_NUMBER"], bot.version["SHORT_HASH"])
 
 print 'Loading plugins'
