@@ -1,7 +1,9 @@
-# Skybot #
+# Aimable #
 
 
-A python IRC bot.
+A python IRC bot forked off of [Skybot](http://github.com/rmmh/skybot).
+
+Website: http://github.com/stoneLeaf/aimable
 
 ## Goals ##
 
@@ -26,4 +28,8 @@ A python IRC bot.
 ## Documentation ##
 
 The documentation is located in the `docs/` directory. You can also find it on
-the project's [wiki](https://github.com/rmmh/skybot/wiki).
+the project's [wiki](http://github.com/stoneLeaf/aimable/wiki).
+
+## License ##
+
+This sofware is licensed under The MIT License (MIT). Read `LICENSE.txt`.
