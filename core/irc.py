@@ -127,9 +127,9 @@ irc_param_ref = re.compile(r'(?:^|(?<= ))(:.*|[^ ]+)').findall
 class IRC(object):
 
     """Handles the IRC protocol.
-
-    See the docs/rfc/ folder for more information on the protocol.
-
+    
+    See rfc1459, rfc2810, rfc2811, rfc2812, rfc2813.
+    
     """
 
     def __init__(self, server, nick, port=6667, channels=[], conf={}):
