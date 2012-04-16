@@ -9,18 +9,21 @@
 
 ## Download ##
 
-You can easily retrieve Skybot's files using git. Browse to the directory in
+You can easily retrieve Aimable's files using git. Browse to the directory in
 which you wish to place the bot and run the following command:
 
-    git clone git://github.com/rmmh/skybot.git
+    git clone git://github.com/stoneLeaf/aimable.git
 
-    
+Alternatively, you can download the source files as a zip or tarball.
+
+    http://github.com/stoneLeaf/aimable/downloads
+
 ## First run ##
 
-Browse to Skybot's directory and run the following command:
+Browse to Aimable's directory and run the following command:
 
     python bot.py
 
-On first run, Skybot will create a default configuration file in its
+On first run, Aimable will create a default configuration file in its
 directory. You can then stop the bot and follow the [[Configuration]] page's
 instructions.

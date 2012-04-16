@@ -5,7 +5,7 @@
 
 ##Overview ##
 
-Skybot continually scans the `plugins/` directory for new or changed .py
+Aimable continually scans the `plugins/` directory for new or changed .py
 files. When it finds one, it runs it and examines each function to see whether
 it is a plugin hook.
 
@@ -27,12 +27,12 @@ def echo(inp):
 usage:
 
     <rmmh> .echo hots
-    <skybot> Scaevolus: hotshots
+    <aimable> Scaevolus: hotshots
 
 
 This plugin example defines a command that replies with twice its input. It
 can be invoked by saying phrases in a channel the bot is in, notably ".echo",
-"skybot: echo", and "skybot, echo" (assuming the bot's nick is "skybot").
+"aimable: echo", and "aimable, echo" (assuming the bot's nick is "aimable").
 
 
 ## Plugin hooks ##

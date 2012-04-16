@@ -1,7 +1,7 @@
 # Configuration #
 
 
-Skybot uses a JSON configuration file to hold settings: `/config`
+Aimable uses a JSON configuration file to hold settings: `/config`
 
 On first run this file is created with default settings:
 
@@ -12,7 +12,7 @@ On first run this file is created with default settings:
     "local irc":
     {
       "server": "localhost",
-      "nick": "skybot",
+      "nick": "aimable",
       "channels": ["#test"]
     }
   }
@@ -36,8 +36,8 @@ Required:
 Optional:
 
 * port: defaults to 6667. The port to connect to.
-* user: defaults to "skybot". (user@netmask)
-* realname: defaults to "Python bot - http://github.com/rmmh/skybot"
+* user: defaults to "aimable". (user@netmask)
+* realname: defaults to "Python bot - http://github.com/stoneLeaf/aimable"
   (Shown in whois)
 * server_password: the server password. Omit if not needed.
 * nickserv_password: defaults to "" (no login is performed)
@@ -50,7 +50,7 @@ Optional:
 
 ## Examples ##
 
-A single skybot instance can have multiple connections and multiple channels:
+A single Aimable instance can have multiple connections and multiple channels:
 
 ```json
 {
@@ -74,8 +74,8 @@ A single skybot instance can have multiple connections and multiple channels:
 
 The user and realname can be set.
 
-* user: defaults to "skybot"
-* realname: defaults to "Python bot - http://github.com/rmmh/skybot"
+* user: defaults to "aimable"
+* realname: defaults to "Python bot - https://github.com/stoneLeaf/aimable"
 
 ```json
 {
@@ -87,7 +87,7 @@ The user and realname can be set.
       "nick": "pokerbot",
       "channels": ["#poker"],
       "user": "pokerbot",
-      "realname": "Pokerbot - a fork of Skybot",
+      "realname": "Pokerbot - a fork of Aimable",
     }
   }
 }

@@ -1,7 +1,7 @@
-# Skybot documentation #
+# Aimable documentation #
 
 
-Skybot is a python IRC bot.
+A python IRC bot forked off of [Skybot](http://github.com/rmmh/skybot).
 
 ## Introduction ##
 
@@ -23,7 +23,7 @@ Skybot is a python IRC bot.
 
 ### Requirements ###
 
-Skybot runs on Python 2.6 and 2.7. Many of the plugins require
+Aimable runs on Python 2.6 and 2.7. Many of the plugins require
 [lxml](http://lxml.de/).
 
 
@@ -32,3 +32,7 @@ Skybot runs on Python 2.6 and 2.7. Many of the plugins require
 * [[Installation]]
 * [[Configuration]]
 * [[Plugin development]]
+
+## License ##
+
+This sofware is licensed under The MIT License (MIT). Read `LICENSE.txt`.
