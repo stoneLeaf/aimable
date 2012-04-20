@@ -3,6 +3,7 @@
 This plugin records and retrieves when and where nicks were last seen chatting.
 
 Command: seen
+
 """
 
 import time
@@ -45,9 +46,9 @@ def time_since(then, now):
 @hook.event("PRIVMSG")
 def watch_nicks(inp, input=None, db=None):
     # Don't record private messages
-    if input.chan[:1] == "#":
+    if input.chan[:1] in ("#", "&", "+", "!"):
         db_init(db)
-        db_record(db, input.user.lower(), input.user,
+        db_record(db, input.nick.lower(), input.nick,
                   input.chan, time.time(), input.msg)
 
 @hook.command

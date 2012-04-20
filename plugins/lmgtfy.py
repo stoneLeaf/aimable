@@ -4,6 +4,7 @@ This plugin forms LMGTFY links.
 
 Command: lmgtfy
 Regex: '<nick> lmgtfy <query>'
+
 """
 
 from urllib import quote
@@ -20,7 +21,7 @@ def lmgtfy(inp, say=None):
 
     say('%s%s' % (base_url, quote(inp.encode("utf-8"))))
 
-@hook.regex(r'(?i)^([a-zA-Z0-9_<\-\[\]\\\^{}]{2,15})[,:]? lmgtfy +(.+)$')
+@hook.regex(r'(?i)^([^ ]{2,15})[,:]? lmgtfy +(.+)$')
 def lmgtfyregex(match, say=None, conn=None):
     """Regex hook matching the pattern '<nick> lmgtfy <query>'."""
     if match.group(1) != conn.nick:
