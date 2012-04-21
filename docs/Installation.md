@@ -22,7 +22,7 @@ Alternatively, you can download the source files as a zip or tarball.
 
 Browse to Aimable's directory and run the following command:
 
-    python bot.py
+    python aimable.py
 
 On first run, Aimable will create a default configuration file in its
 directory. You can then stop the bot and follow the [[Configuration]] page's

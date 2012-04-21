@@ -3,7 +3,6 @@
 *.orig
 persist
 config
-pep8.py
 .project
 .pydevproject
 *.db
